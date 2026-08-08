@@ -1,0 +1,53 @@
+/**
+ * Локальные шрифты театра «Свой».
+ * Подключаются через `<link rel="stylesheet" href="/fonts.css" />` в <head>
+ * каждой страницы. Заменяет 35 объявлений @font-face (7 шрифтов × 5 страниц)
+ * одним файлом.
+ */
+@font-face {
+  font-family: 'Koryavy Paltsem';
+  src: url('/fonts/KoryavyPaltsem.otf?v=3') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('/fonts/Unbounded-300.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('/fonts/Unbounded-400.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('/fonts/Unbounded-700.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('/fonts/Unbounded-900.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Golos Text';
+  src: url('/fonts/GolosText-400.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Golos Text';
+  src: url('/fonts/GolosText-500.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}

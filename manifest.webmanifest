@@ -1,0 +1,26 @@
+{
+  "name": "Театр «Свой»",
+  "short_name": "Свой",
+  "description": "Независимый театр в Москве. Шесть спектаклей, которые ждут своего зала.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "ru-RU",
+  "background_color": "#efe7d8",
+  "theme_color": "#efe7d8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon",
+      "purpose": "any"
+    }
+  ]
+}
